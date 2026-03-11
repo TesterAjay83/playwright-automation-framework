@@ -1,0 +1,9 @@
+export const ENV = {
+
+    url: "http://localhost:8888/",
+
+    username: "admin",
+
+    password: "admin"
+
+};

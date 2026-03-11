@@ -1,0 +1,14 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"automerge": true,
+	"automergeType": "pr",
+	"extends": [
+		"config:recommended",
+		"group:all",
+		"customManagers:biomeVersions"
+	],
+	"pre-commit": {
+		"enabled": true
+	},
+	"schedule": ["monthly"]
+}
