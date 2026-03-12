@@ -1,42 +1,4 @@
-// import { Page, Locator, expect } from '@playwright/test';
-// import { BasePage } from './basePage';
-
-// export class LeadsPage extends BasePage {
-
-//     readonly createLeadBtn: Locator;
-//     readonly leadsHeader: Locator;
-
-//     constructor(page) {
-
-//         super(page);
-
-//         this.createLeadBtn = page.locator('img[alt="Create Lead..."]');
-
-//         this.leadsHeader = page.locator('td.moduleName');
-
-//     }
-
-//     async verifyLeadsPage() {
-
-//         await expect(this.createLeadBtn).toBeVisible();
-
-//     }
-
-//     async clickCreateLead() {
-
-//         await this.createLeadBtn.click();
-
-//     }
-
-//     async openLeadByName(name: string) {
-
-//         await this.page.locator(`//a[text()="${name}"]`).first().click();
-
-//     }
-
-// }
-
- import { Page, Locator, expect } from '@playwright/test';
+import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
 
 export class LeadsPage extends BasePage {
