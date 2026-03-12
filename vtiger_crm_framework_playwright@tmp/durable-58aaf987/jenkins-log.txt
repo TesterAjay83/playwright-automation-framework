@@ -1,4 +1,0 @@
-
-C:\Users\AJAY KUMAR\Desktop\Playwright Frameworks\vtiger_crm_framework_playwright>npx playwright test 
-Error: EPERM: operation not permitted, unlink 'C:\Users\AJAY KUMAR\Desktop\Playwright Frameworks\vtiger_crm_framework_playwright\test-results\leadE2E--e2e-Lead-lifecycle\test-failed-1.png'
-
