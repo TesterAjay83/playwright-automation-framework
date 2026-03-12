@@ -1,19 +1,17 @@
+  
 import { Page } from '@playwright/test';
 
 export class BasePage {
 
-    readonly page: Page;
+  readonly page: Page;
 
-    constructor(page: Page) {
+  constructor(page: Page) {
+    this.page = page;
+  }
 
-        this.page = page;
-
-    }
-
-    async navigate(url: string) {
-
-        await this.page.goto(url);
-
-    }
+  async navigate(url: string) {
+    await this.page.goto(url);
+    await this.page.waitForLoadState('domcontentloaded');
+  }
 
 }

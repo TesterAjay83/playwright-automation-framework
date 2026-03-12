@@ -1,33 +1,33 @@
- import { Page, Locator, expect } from '@playwright/test';
+  
+
+import { Page, Locator } from '@playwright/test';
 import { BasePage } from './basePage';
 
 export class EditLeadPage extends BasePage {
 
-    readonly companyField: Locator;
-    readonly saveBtn: Locator;
+  readonly companyField: Locator;
 
-    constructor(page: Page) {
+  readonly saveBtn: Locator;
 
-        super(page);
+  constructor(page: Page) {
 
-        this.companyField = this.page.locator('input[name="company"]');
+    super(page);
 
-        this.saveBtn = this.page.locator('input[title="Save [Alt+S]"]');
+    this.companyField = page.locator('input[name="company"]');
 
-    }
+    this.saveBtn = page.locator('input[title="Save [Alt+S]"]').first();
+    //this.saveBtn = page.locator('input[title="Save [Alt+S]"]').;
 
-    async verifyEditPage() {
+  }
 
-        await expect(this.saveBtn).toBeVisible();
+  async updateCompany(newCompany: string) {
 
-    }
+    await this.companyField.clear();
 
-    async updateCompany(newCompany: string) {
+    await this.companyField.fill(newCompany);
 
-        await this.companyField.fill(newCompany);
+    await this.saveBtn.click();
 
-        await this.saveBtn.click();
-
-    }
+  }
 
 }

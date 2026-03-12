@@ -3,7 +3,7 @@ import { CreateLeadPage } from '../pages/CreateLeadPage';
 import { LeadInfoPage } from '../pages/LeadInfoPage';
 import { leadData } from '../utils/testData';
 
-test.only('@regression @lead Create new Lead', async ({ page, homePage, leadsPage }) => {
+test('@regression @lead Create new Lead', async ({ page, homePage, leadsPage }) => {
 
     await page.goto('/');
 

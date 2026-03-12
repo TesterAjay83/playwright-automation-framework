@@ -1,0 +1,506 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - table [ref=e2]:
+    - rowgroup [ref=e3]:
+      - row "vtiger-crm-logo.gif Search... Find Administrator" [ref=e4]:
+        - cell "vtiger-crm-logo.gif" [ref=e5]:
+          - img "vtiger-crm-logo.gif" [ref=e6]
+        - cell "Search... Find" [ref=e7]:
+          - table [ref=e9]:
+            - rowgroup [ref=e10]:
+              - row "Search... Find" [ref=e11]:
+                - cell "Search..." [ref=e12]:
+                  - textbox [ref=e13]: Search...
+                - cell [ref=e14]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - img [ref=e15] [cursor=pointer]
+                - cell "Find" [ref=e16]:
+                  - button "Find" [ref=e17] [cursor=pointer]
+        - cell "Administrator" [ref=e18]:
+          - table [ref=e19]:
+            - rowgroup [ref=e20]:
+              - row "Administrator" [ref=e21]:
+                - cell "Administrator" [ref=e22]
+                - cell [ref=e23]:
+                  - img [ref=e24]
+                - cell [ref=e25]:
+                  - img [ref=e27]
+                - cell [ref=e28]:
+                  - img [ref=e29]
+  - table [ref=e30]:
+    - rowgroup [ref=e31]:
+      - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e32]:
+        - cell [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: index.php?module=Home&action=index&parenttab=My Home Page
+            - img [ref=e35]
+        - cell "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e36]:
+          - table [ref=e37]:
+            - rowgroup [ref=e38]:
+              - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e39]:
+                - cell [ref=e40]:
+                  - img [ref=e41]
+                - cell "Calendar" [ref=e42]:
+                  - link "Calendar" [ref=e43] [cursor=pointer]:
+                    - /url: index.php?module=Calendar&action=index
+                - cell [ref=e44]:
+                  - img [ref=e45]
+                - cell "Leads" [ref=e46]:
+                  - link "Leads" [ref=e47] [cursor=pointer]:
+                    - /url: index.php?module=Leads&action=index
+                - cell [ref=e48]:
+                  - img [ref=e49]
+                - cell "Organizations" [ref=e50]:
+                  - link "Organizations" [ref=e51] [cursor=pointer]:
+                    - /url: index.php?module=Accounts&action=index
+                - cell [ref=e52]:
+                  - img [ref=e53]
+                - cell "Contacts" [ref=e54]:
+                  - link "Contacts" [ref=e55] [cursor=pointer]:
+                    - /url: index.php?module=Contacts&action=index
+                - cell [ref=e56]:
+                  - img [ref=e57]
+                - cell "Opportunities" [ref=e58]:
+                  - link "Opportunities" [ref=e59] [cursor=pointer]:
+                    - /url: index.php?module=Potentials&action=index
+                - cell [ref=e60]:
+                  - img [ref=e61]
+                - cell "Products" [ref=e62]:
+                  - link "Products" [ref=e63] [cursor=pointer]:
+                    - /url: index.php?module=Products&action=index
+                - cell [ref=e64]:
+                  - img [ref=e65]
+                - cell "Documents" [ref=e66]:
+                  - link "Documents" [ref=e67] [cursor=pointer]:
+                    - /url: index.php?module=Documents&action=index
+                - cell [ref=e68]:
+                  - img [ref=e69]
+                - cell "Email" [ref=e70]:
+                  - link "Email" [ref=e71] [cursor=pointer]:
+                    - /url: index.php?module=Emails&action=index
+                - cell [ref=e72]:
+                  - img [ref=e73]
+                - cell "Trouble Tickets" [ref=e74]:
+                  - link "Trouble Tickets" [ref=e75] [cursor=pointer]:
+                    - /url: index.php?module=HelpDesk&action=index
+                - cell [ref=e76]:
+                  - img [ref=e77]
+                - cell "Dashboard" [ref=e78]:
+                  - link "Dashboard" [ref=e79] [cursor=pointer]:
+                    - /url: index.php?module=Dashboard&action=index
+                - cell [ref=e80]:
+                  - img [ref=e81]
+                - cell "More" [ref=e82]:
+                  - link "More" [ref=e83] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: More
+                    - img [ref=e84]
+                - cell [ref=e85]:
+                  - img [ref=e86]
+                - cell "Quick Create..." [ref=e87]:
+                  - combobox [ref=e88]:
+                    - option "Quick Create..." [selected]
+                    - option "New Organization"
+                    - option "New Asset"
+                    - option "New To Do"
+                    - option "New Campaign"
+                    - option "New Comment"
+                    - option "New Contact"
+                    - option "New Document"
+                    - option "New Event"
+                    - option "New Ticket"
+                    - option "New Lead"
+                    - option "New Opportunity"
+                    - option "New PriceBook"
+                    - option "New Product"
+                    - option "New Project"
+                    - option "New Project Milestone"
+                    - option "New Project Task"
+                    - option "New Service Contract"
+                    - option "New Service"
+                    - option "New Vendor"
+        - cell [ref=e89]
+  - table [ref=e91]:
+    - rowgroup [ref=e92]:
+      - row [ref=e93]:
+        - cell [ref=e94]:
+          - table [ref=e95]:
+            - rowgroup [ref=e96]:
+              - row [ref=e97]:
+                - cell [ref=e98]
+              - row "Leads Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e99]:
+                - cell "Leads" [ref=e100]:
+                  - link "Leads" [ref=e101] [cursor=pointer]:
+                    - /url: index.php?action=ListView&module=Leads&parenttab=Marketing
+                - cell "Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e102]:
+                  - table [ref=e103]:
+                    - rowgroup [ref=e104]:
+                      - row "Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e105]:
+                        - cell [ref=e106]
+                        - cell "Create Lead..." [ref=e107]:
+                          - table [ref=e108]:
+                            - rowgroup [ref=e109]:
+                              - row "Create Lead..." [ref=e110]:
+                                - cell "Create Lead..." [ref=e111]:
+                                  - table [ref=e112]:
+                                    - rowgroup [ref=e113]:
+                                      - row "Create Lead..." [ref=e114]:
+                                        - cell "Create Lead..." [ref=e115]:
+                                          - link "Create Lead..." [ref=e116] [cursor=pointer]:
+                                            - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                                            - img "Create Lead..." [ref=e117]
+                                        - cell [ref=e118]:
+                                          - img [ref=e119]
+                        - cell [ref=e120]
+                        - cell "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed" [ref=e121]:
+                          - table [ref=e122]:
+                            - rowgroup [ref=e123]:
+                              - row "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed" [ref=e124]:
+                                - cell "Open Calendar..." [ref=e125]:
+                                  - link "Open Calendar..." [ref=e126] [cursor=pointer]:
+                                    - /url: javascript:;
+                                    - img "Open Calendar..." [ref=e127]
+                                - cell "Show World Clock..." [ref=e128]:
+                                  - link "Show World Clock..." [ref=e129] [cursor=pointer]:
+                                    - /url: javascript:;
+                                    - img "Show World Clock..." [ref=e130]
+                                - cell "Open Calculator..." [ref=e131]:
+                                  - link "Open Calculator..." [ref=e132] [cursor=pointer]:
+                                    - /url: "#"
+                                    - img "Open Calculator..." [ref=e133]
+                                - cell "Chat..." [ref=e134]:
+                                  - link "Chat..." [ref=e135] [cursor=pointer]:
+                                    - /url: javascript:;
+                                    - img "Chat..." [ref=e136]
+                                - cell "Last Viewed" [ref=e137]:
+                                  - img "Last Viewed" [ref=e138]
+                        - cell [ref=e139]
+                        - cell "Import Leads Export Leads" [ref=e140]:
+                          - table [ref=e141]:
+                            - rowgroup [ref=e142]:
+                              - row "Import Leads Export Leads" [ref=e143]:
+                                - cell "Import Leads" [ref=e144]:
+                                  - link "Import Leads" [ref=e145] [cursor=pointer]:
+                                    - /url: index.php?module=Leads&action=Import&step=1&return_module=Leads&return_action=index&parenttab=Marketing
+                                    - img "Import Leads" [ref=e146]
+                                - cell "Export Leads" [ref=e147]:
+                                  - link "Export Leads" [ref=e148] [cursor=pointer]:
+                                    - /url: javascript:void(0)
+                                    - img "Export Leads" [ref=e149]
+                                - cell [ref=e150]:
+                                  - img [ref=e151]
+                        - cell [ref=e152]
+                        - cell "Leads Settings" [ref=e153]:
+                          - table [ref=e154]:
+                            - rowgroup [ref=e155]:
+                              - row "Leads Settings" [ref=e156]:
+                                - cell "Leads Settings" [ref=e157]:
+                                  - link "Leads Settings" [ref=e158] [cursor=pointer]:
+                                    - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Leads&parenttab=Settings
+                                    - img "Leads Settings" [ref=e159]
+          - table [ref=e160]:
+            - rowgroup [ref=e161]:
+              - 'row "[ LEA110 ] Kumar Ajay - Lead Information Updated today (12 Mar 2026) By Administrator Lead Information More Information Edit Duplicate Delete Previous Next Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e162]':
+                - cell [ref=e163]:
+                  - img [ref=e164]
+                - 'cell "[ LEA110 ] Kumar Ajay - Lead Information Updated today (12 Mar 2026) By Administrator Lead Information More Information Edit Duplicate Delete Previous Next Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e165]':
+                  - generic [ref=e166]:
+                    - table [ref=e167]:
+                      - rowgroup [ref=e168]:
+                        - row "[ LEA110 ] Kumar Ajay - Lead Information Updated today (12 Mar 2026) By Administrator" [ref=e169]:
+                          - cell "[ LEA110 ] Kumar Ajay - Lead Information Updated today (12 Mar 2026) By Administrator" [ref=e170]
+                    - table [ref=e171]:
+                      - rowgroup [ref=e172]:
+                        - row "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e173]:
+                          - cell "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e174]:
+                            - table [ref=e175]:
+                              - rowgroup [ref=e176]:
+                                - row "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e177]:
+                                  - cell [ref=e178]
+                                  - cell "Lead Information" [ref=e179]
+                                  - cell [ref=e180]
+                                  - cell "More Information" [ref=e181] [cursor=pointer]:
+                                    - link "More Information" [ref=e182]:
+                                      - /url: index.php?action=CallRelatedList&module=Leads&record=116&parenttab=Marketing
+                                  - cell "Edit Duplicate Delete Previous Next" [ref=e183]:
+                                    - button "Edit" [ref=e184]
+                                    - button "Duplicate" [ref=e185]
+                                    - button "Delete" [ref=e186]
+                                    - img "Previous" [ref=e187]
+                                    - img "Next" [ref=e188]
+                        - 'row "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates" [ref=e189]':
+                          - 'cell "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates" [ref=e190]':
+                            - table [ref=e191]:
+                              - rowgroup [ref=e192]:
+                                - 'row "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates" [ref=e193]':
+                                  - 'cell "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear" [ref=e194]':
+                                    - table [ref=e195]:
+                                      - rowgroup [ref=e196]:
+                                        - 'row "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear" [ref=e197]':
+                                          - 'cell "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09 Locate Map Hide Address Information Street PO Box Postal Code City Country State Hide Description Information Description Hide Comments Information Show : All Add Comment Save or Clear" [ref=e198]':
+                                            - table [ref=e199]:
+                                              - rowgroup [ref=e200]:
+                                                - row "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09" [ref=e201]:
+                                                  - cell "Hide Lead Information First Name Ajay Lead No LEA110 Last Name Kumar Phone Company OpenAI Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue ($) 0 Lead Status --None-- No Of Employees Rating --None-- Secondary Email Assigned To Administrator Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09" [ref=e202]:
+                                                    - table [ref=e203]:
+                                                      - rowgroup [ref=e204]:
+                                                        - row [ref=e205]:
+                                                          - cell [ref=e206]
+                                                          - cell [ref=e207]
+                                                          - cell [ref=e208]
+                                                          - cell [ref=e209]
+                                                        - row "Hide Lead Information" [ref=e210]:
+                                                          - cell "Hide Lead Information" [ref=e211]:
+                                                            - generic [ref=e212]:
+                                                              - link "Hide" [ref=e214] [cursor=pointer]:
+                                                                - /url: javascript:showHideStatus('tblLeadInformation','aidLeadInformation','themes/softed/images/');
+                                                                - img "Hide" [ref=e215]
+                                                              - text: Lead Information
+                                                    - table [ref=e217]:
+                                                      - rowgroup [ref=e218]:
+                                                        - row "First Name Ajay Lead No LEA110" [ref=e219]:
+                                                          - cell "First Name" [ref=e220]
+                                                          - cell "Ajay" [ref=e221]
+                                                          - cell "Lead No" [ref=e222]
+                                                          - cell "LEA110" [ref=e223]
+                                                        - row "Last Name Kumar Phone" [ref=e224]:
+                                                          - cell "Last Name" [ref=e225]
+                                                          - cell "Kumar" [ref=e226]
+                                                          - cell "Phone" [ref=e227]
+                                                          - cell [ref=e228]
+                                                        - row "Company OpenAI Mobile" [ref=e229]:
+                                                          - cell "Company" [ref=e230]
+                                                          - cell "OpenAI" [ref=e231]
+                                                          - cell "Mobile" [ref=e232]
+                                                          - cell [ref=e233]
+                                                        - row "Title Fax" [ref=e234]:
+                                                          - cell "Title" [ref=e235]
+                                                          - cell [ref=e236]
+                                                          - cell "Fax" [ref=e237]
+                                                          - cell [ref=e238]
+                                                        - row "Lead Source --None-- Email" [ref=e239]:
+                                                          - cell "Lead Source" [ref=e240]
+                                                          - cell "--None--" [ref=e241]:
+                                                            - generic [ref=e242]: "--None--"
+                                                          - cell "Email" [ref=e243]
+                                                          - cell [ref=e244]:
+                                                            - generic:
+                                                              - link:
+                                                                - /url: javascript:InternalMailer(116,46,'email','Leads','record_id');
+                                                        - row "Industry --None-- Website" [ref=e245]:
+                                                          - cell "Industry" [ref=e246]
+                                                          - cell "--None--" [ref=e247]:
+                                                            - generic [ref=e248]: "--None--"
+                                                          - cell "Website" [ref=e249]
+                                                          - cell [ref=e250]:
+                                                            - generic:
+                                                              - link:
+                                                                - /url: ""
+                                                        - row "Annual Revenue ($) 0 Lead Status --None--" [ref=e251]:
+                                                          - cell "Annual Revenue ($)" [ref=e252]
+                                                          - cell "0" [ref=e253]
+                                                          - cell "Lead Status" [ref=e254]
+                                                          - cell "--None--" [ref=e255]:
+                                                            - generic [ref=e256]: "--None--"
+                                                        - row "No Of Employees Rating --None--" [ref=e257]:
+                                                          - cell "No Of Employees" [ref=e258]
+                                                          - cell [ref=e259]
+                                                          - cell "Rating" [ref=e260]
+                                                          - cell "--None--" [ref=e261]:
+                                                            - generic [ref=e262]: "--None--"
+                                                        - row "Secondary Email Assigned To Administrator" [ref=e263]:
+                                                          - cell "Secondary Email" [ref=e264]
+                                                          - cell [ref=e265]:
+                                                            - generic:
+                                                              - link:
+                                                                - /url: javascript:InternalMailer(116,55,'secondaryemail','Leads','record_id');
+                                                          - cell "Assigned To" [ref=e266]
+                                                          - cell "Administrator" [ref=e267]:
+                                                            - link "Administrator" [ref=e269] [cursor=pointer]:
+                                                              - /url: index.php?module=Users&action=DetailView&record=1
+                                                        - row "Modified Time 2026-03-12 20:09:09 Created Time 2026-03-12 20:09:09" [ref=e270]:
+                                                          - cell "Modified Time" [ref=e271]
+                                                          - cell "2026-03-12 20:09:09" [ref=e272]
+                                                          - cell "Created Time" [ref=e273]
+                                                          - cell "2026-03-12 20:09:09" [ref=e274]
+                                                - row "Locate Map Hide Address Information Street PO Box Postal Code City Country State" [ref=e275]:
+                                                  - cell "Locate Map Hide Address Information Street PO Box Postal Code City Country State" [ref=e276]:
+                                                    - table [ref=e277]:
+                                                      - rowgroup [ref=e278]:
+                                                        - row "Locate Map" [ref=e279]:
+                                                          - cell [ref=e280]
+                                                          - cell [ref=e281]
+                                                          - cell [ref=e282]
+                                                          - cell "Locate Map" [ref=e283]:
+                                                            - button "Locate Map" [ref=e284]
+                                                        - row "Hide Address Information" [ref=e285]:
+                                                          - cell "Hide Address Information" [ref=e286]:
+                                                            - generic [ref=e287]:
+                                                              - link "Hide" [ref=e289] [cursor=pointer]:
+                                                                - /url: javascript:showHideStatus('tblAddressInformation','aidAddressInformation','themes/softed/images/');
+                                                                - img "Hide" [ref=e290]
+                                                              - text: Address Information
+                                                    - table [ref=e292]:
+                                                      - rowgroup [ref=e293]:
+                                                        - row "Street PO Box" [ref=e294]:
+                                                          - cell "Street" [ref=e295]
+                                                          - cell [ref=e296]
+                                                          - cell "PO Box" [ref=e297]
+                                                          - cell [ref=e298]
+                                                        - row "Postal Code City" [ref=e299]:
+                                                          - cell "Postal Code" [ref=e300]
+                                                          - cell [ref=e301]
+                                                          - cell "City" [ref=e302]
+                                                          - cell [ref=e303]
+                                                        - row "Country State" [ref=e304]:
+                                                          - cell "Country" [ref=e305]
+                                                          - cell [ref=e306]
+                                                          - cell "State" [ref=e307]
+                                                          - cell [ref=e308]
+                                                - row "Hide Description Information Description" [ref=e309]:
+                                                  - cell "Hide Description Information Description" [ref=e310]:
+                                                    - table [ref=e311]:
+                                                      - rowgroup [ref=e312]:
+                                                        - row [ref=e313]:
+                                                          - cell [ref=e314]
+                                                          - cell [ref=e315]
+                                                          - cell [ref=e316]
+                                                          - cell [ref=e317]
+                                                        - row "Hide Description Information" [ref=e318]:
+                                                          - cell "Hide Description Information" [ref=e319]:
+                                                            - generic [ref=e320]:
+                                                              - link "Hide" [ref=e322] [cursor=pointer]:
+                                                                - /url: javascript:showHideStatus('tblDescriptionInformation','aidDescriptionInformation','themes/softed/images/');
+                                                                - img "Hide" [ref=e323]
+                                                              - text: Description Information
+                                                    - table [ref=e325]:
+                                                      - rowgroup [ref=e326]:
+                                                        - row "Description" [ref=e327]:
+                                                          - cell "Description" [ref=e328]
+                                                          - cell [ref=e329]
+                                                - 'row "Hide Comments Information Show : All Add Comment Save or Clear" [ref=e330]':
+                                                  - 'cell "Hide Comments Information Show : All Add Comment Save or Clear" [ref=e331]':
+                                                    - table [ref=e332]:
+                                                      - rowgroup [ref=e333]:
+                                                        - 'row "Hide Comments Information Show : All" [ref=e334]':
+                                                          - 'cell "Hide Comments Information Show : All" [ref=e335]':
+                                                            - generic [ref=e336]:
+                                                              - link "Hide" [ref=e338] [cursor=pointer]:
+                                                                - /url: javascript:showHideStatus('tblModCommentsDetailViewBlockCommentWidget','aidModCommentsDetailViewBlockCommentWidget','$IMAGE_PATH');
+                                                                - img "Hide" [ref=e339]
+                                                              - text: Comments Information
+                                                            - generic [ref=e340]:
+                                                              - text: "Show :"
+                                                              - combobox [ref=e341]:
+                                                                - option "All" [selected]
+                                                                - option "Last 5"
+                                                                - option "Mine"
+                                                    - table [ref=e343]:
+                                                      - rowgroup [ref=e344]:
+                                                        - row [ref=e345]:
+                                                          - cell [ref=e346]
+                                                        - row "Add Comment Save or Clear" [ref=e348]:
+                                                          - cell "Add Comment" [ref=e349]
+                                                          - cell "Save or Clear" [ref=e350]:
+                                                            - generic [ref=e351]:
+                                                              - textbox [ref=e352]
+                                                              - button "Save" [ref=e353]
+                                                              - text: or
+                                                              - link "Clear" [ref=e354] [cursor=pointer]:
+                                                                - /url: javascript:;
+                                                - row
+                                  - 'cell "Actions Send Mail Add Event Add To Do Convert Lead Add Note Send SMS Select template to Mail Merge: Create Mail Merge templates" [ref=e355]':
+                                    - table [ref=e356]:
+                                      - rowgroup [ref=e357]:
+                                        - row "Actions" [ref=e358]:
+                                          - cell "Actions" [ref=e359]
+                                        - row "Send Mail" [ref=e360]:
+                                          - cell "Send Mail" [ref=e361]:
+                                            - link [ref=e362] [cursor=pointer]:
+                                              - /url: javascript:void(0);
+                                              - img [ref=e363]
+                                            - link "Send Mail" [ref=e364] [cursor=pointer]:
+                                              - /url: javascript:void(0);
+                                        - row "Add Event" [ref=e365]:
+                                          - cell "Add Event" [ref=e366]:
+                                            - link [ref=e367] [cursor=pointer]:
+                                              - /url: index.php?module=Calendar&action=EditView&return_module=Leads&return_action=DetailView&activity_mode=Events&return_id=116&parent_id=116&parenttab=Marketing
+                                              - img [ref=e368]
+                                            - link "Add Event" [ref=e369] [cursor=pointer]:
+                                              - /url: index.php?module=Calendar&action=EditView&return_module=Leads&return_action=DetailView&activity_mode=Events&return_id=116&parent_id=116&parenttab=Marketing
+                                        - row "Add To Do" [ref=e370]:
+                                          - cell "Add To Do" [ref=e371]:
+                                            - link [ref=e372] [cursor=pointer]:
+                                              - /url: index.php?module=Calendar&action=EditView&return_module=Leads&return_action=DetailView&activity_mode=Task&return_id=116&parent_id=116&parenttab=Marketing
+                                              - img [ref=e373]
+                                            - link "Add To Do" [ref=e374] [cursor=pointer]:
+                                              - /url: index.php?module=Calendar&action=EditView&return_module=Leads&return_action=DetailView&activity_mode=Task&return_id=116&parent_id=116&parenttab=Marketing
+                                        - row "Convert Lead" [ref=e375]:
+                                          - cell "Convert Lead" [ref=e376]:
+                                            - link [ref=e377] [cursor=pointer]:
+                                              - /url: javascript:void(0);
+                                              - img [ref=e378]
+                                            - link "Convert Lead" [ref=e379] [cursor=pointer]:
+                                              - /url: javascript:void(0);
+                                    - table [ref=e380]:
+                                      - rowgroup [ref=e381]:
+                                        - row "Add Note" [ref=e382]:
+                                          - cell "Add Note" [ref=e383]:
+                                            - link [ref=e384] [cursor=pointer]:
+                                              - /url: index.php?module=Documents&action=EditView&return_module=Leads&return_action=DetailView&return_id=116&parent_id=116
+                                              - img [ref=e385]
+                                            - link "Add Note" [ref=e386] [cursor=pointer]:
+                                              - /url: index.php?module=Documents&action=EditView&return_module=Leads&return_action=DetailView&return_id=116&parent_id=116
+                                        - row "Send SMS" [ref=e387]:
+                                          - cell "Send SMS" [ref=e388]:
+                                            - link "Send SMS" [ref=e389] [cursor=pointer]:
+                                              - /url: javascript:SMSNotifierCommon.displaySelectWizard_DetailView('Leads', '116');
+                                    - table [ref=e391]:
+                                      - rowgroup [ref=e392]:
+                                        - row "Select template to Mail Merge:" [ref=e393]:
+                                          - cell "Select template to Mail Merge:" [ref=e394]
+                                        - row "Create Mail Merge templates" [ref=e395]:
+                                          - cell "Create Mail Merge templates" [ref=e396]:
+                                            - link "Create Mail Merge templates" [ref=e397] [cursor=pointer]:
+                                              - /url: index.php?module=Settings&action=upload&tempModule=Leads&parenttab=Settings
+                        - row "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e398]:
+                          - cell "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e399]:
+                            - table [ref=e400]:
+                              - rowgroup [ref=e401]:
+                                - row "Lead Information More Information Edit Duplicate Delete Previous Next" [ref=e402]:
+                                  - cell [ref=e403]
+                                  - cell "Lead Information" [ref=e404]
+                                  - cell [ref=e405]
+                                  - cell "More Information" [ref=e406] [cursor=pointer]:
+                                    - link "More Information" [ref=e407]:
+                                      - /url: index.php?action=CallRelatedList&module=Leads&record=116&parenttab=Marketing
+                                  - cell "Edit Duplicate Delete Previous Next" [ref=e408]:
+                                    - button "Edit" [ref=e409]
+                                    - button "Duplicate" [ref=e410]
+                                    - button "Delete" [ref=e411]
+                                    - img "Previous" [ref=e412]
+                                    - img "Next" [ref=e413]
+                - cell [ref=e414]:
+                  - img [ref=e415]
+          - table [ref=e416]:
+            - rowgroup [ref=e417]:
+              - row "Powered by vtiger CRM 5.4.0 © 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e418]:
+                - cell "Powered by vtiger CRM 5.4.0" [ref=e419]:
+                  - generic [ref=e420]: Powered by vtiger CRM 5.4.0
+                - cell "© 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e421]:
+                  - generic [ref=e422]:
+                    - text: © 2004-2026
+                    - link "vtiger.com" [ref=e423] [cursor=pointer]:
+                      - /url: http://www.vtiger.com
+                    - text: "|"
+                    - link "Read License" [ref=e424] [cursor=pointer]:
+                      - /url: javascript:mypopup()
+                    - text: "|"
+                    - link "Privacy Policy" [ref=e425] [cursor=pointer]:
+                      - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+      - row [ref=e426]:
+        - cell [ref=e427]
+```

@@ -1,34 +1,35 @@
- 
+  
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
 
 export class HomePage extends BasePage {
 
-    readonly leadsLink: Locator;
-    readonly homeLogo: Locator;
+  readonly leadsLink: Locator;
+  readonly homeLogo: Locator;
 
-    constructor(page: Page) {
+  constructor(page: Page) {
 
-        super(page);
+    super(page);
 
-        this.leadsLink =
-            this.leadsLink = this.page.locator('a[href="index.php?module=Leads&action=index"]');
-        this.homeLogo =
-            this.page.locator('img[src*="vtiger-crm-logo"]');
+    this.leadsLink = page.locator('a[href="index.php?module=Leads&action=index"]');
 
-    }
+    this.homeLogo = page.locator('img[src*="vtiger-crm-logo"]');
+  }
 
-    async verifyHomePage() {
+  async verifyHomePage() {
 
-        await expect(this.leadsLink).toBeVisible();
+    await expect(this.homeLogo).toBeVisible();
 
-    }
+  }
 
-    async clickLeads() {
+  async clickLeads() {
 
-        await this.leadsLink.click();
+    await Promise.all([
+      this.page.waitForLoadState('domcontentloaded'),
+      this.leadsLink.click()
+    ]);
 
-    }
+  }
 
 }
 

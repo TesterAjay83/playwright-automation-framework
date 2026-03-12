@@ -1,34 +1,31 @@
+ 
+
+
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
 
 export class LeadsPage extends BasePage {
 
-    readonly createLeadBtn: Locator;
+  readonly createLeadBtn: Locator;
 
-    constructor(page: Page) {
+  constructor(page: Page) {
 
-        super(page);
+    super(page);
 
-        this.createLeadBtn =
-            this.page.locator('img[alt="Create Lead..."]');
+    this.createLeadBtn = page.locator('img[alt="Create Lead..."]');
 
-    }
+  }
 
-    async verifyLeadsPage() {
+  async verifyLeadsPage() {
 
-        await this.page.waitForLoadState('domcontentloaded');
+    await expect(this.createLeadBtn).toBeVisible();
 
-        await expect(this.createLeadBtn).toBeVisible({ timeout: 30000 });
+  }
 
-    }
+  async clickCreateLead() {
 
-    async clickCreateLead() {
+    await this.createLeadBtn.click();
 
-        await this.page.waitForLoadState('domcontentloaded');
-
-        await this.createLeadBtn.click();
-
-    }
+  }
 
 }
-

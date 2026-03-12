@@ -1,43 +1,49 @@
- import { Page, Locator, expect } from '@playwright/test';
+ 
+
+
+
+import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
 
 export class LeadInfoPage extends BasePage {
 
-    readonly leadHeader: Locator;
-    readonly editBtn: Locator;
-    readonly deleteBtn: Locator;
+  readonly leadHeader: Locator;
 
-    constructor(page: Page) {
+  readonly editBtn: Locator;
 
-        super(page);
+  readonly deleteBtn: Locator;
 
-        this.leadHeader = page.locator('.dvHeaderText');
+  constructor(page: Page) {
 
-      //  this.editBtn = page.locator('input[value="Edit"]');
-        this.editBtn = page.locator('input[value="Edit"]').first();
+    super(page);
 
-        this.deleteBtn = page.locator('input[value="Delete"]');
+    this.leadHeader = page.locator('.dvHeaderText');
 
-    }
+    this.editBtn = page.locator('input[title="Edit [Alt+E]"]').first();
 
-    async verifyLeadCreated(name: string) {
+    this.deleteBtn = page.locator('input[value="Delete"]').first();
+    //this.deleteBtn = page.locator('input[value="Delete"]');
 
-        await expect(this.leadHeader).toContainText(name);
+  }
 
-    }
+  async verifyLeadCreated(name: string) {
 
-    async clickEdit() {
+    await expect(this.leadHeader).toContainText(name);
 
-        await this.editBtn.click();
+  }
 
-    }
+  async clickEdit() {
 
-    async clickDelete() {
+    await this.editBtn.click();
 
-        this.page.once('dialog', dialog => dialog.accept());
+  }
 
-        await this.deleteBtn.click();
+  async clickDelete() {
 
-    }
+    this.page.once('dialog', dialog => dialog.accept());
+
+    await this.deleteBtn.click();
+
+  }
 
 }

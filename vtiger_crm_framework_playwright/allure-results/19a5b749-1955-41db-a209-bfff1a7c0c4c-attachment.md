@@ -1,0 +1,432 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - table [ref=e2]:
+    - rowgroup [ref=e3]:
+      - row "vtiger-crm-logo.gif Search... Find Administrator" [ref=e4]:
+        - cell "vtiger-crm-logo.gif" [ref=e5]:
+          - img "vtiger-crm-logo.gif" [ref=e6]
+        - cell "Search... Find" [ref=e7]:
+          - table [ref=e9]:
+            - rowgroup [ref=e10]:
+              - row "Search... Find" [ref=e11]:
+                - cell "Search..." [ref=e12]:
+                  - textbox [ref=e13]: Search...
+                - cell [ref=e14]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - img [ref=e15] [cursor=pointer]
+                - cell "Find" [ref=e16]:
+                  - button "Find" [ref=e17] [cursor=pointer]
+        - cell "Administrator" [ref=e18]:
+          - table [ref=e19]:
+            - rowgroup [ref=e20]:
+              - row "Administrator" [ref=e21]:
+                - cell "Administrator" [ref=e22]
+                - cell [ref=e23]:
+                  - img [ref=e24]
+                - cell [ref=e25]:
+                  - img [ref=e27]
+                - cell [ref=e28]:
+                  - img [ref=e29]
+  - table [ref=e30]:
+    - rowgroup [ref=e31]:
+      - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e32]:
+        - cell [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: index.php?module=Home&action=index&parenttab=My Home Page
+            - img [ref=e35]
+        - cell "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e36]:
+          - table [ref=e37]:
+            - rowgroup [ref=e38]:
+              - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e39]:
+                - cell [ref=e40]:
+                  - img [ref=e41]
+                - cell "Calendar" [ref=e42]:
+                  - link "Calendar" [ref=e43] [cursor=pointer]:
+                    - /url: index.php?module=Calendar&action=index
+                - cell [ref=e44]:
+                  - img [ref=e45]
+                - cell "Leads" [ref=e46]:
+                  - link "Leads" [ref=e47] [cursor=pointer]:
+                    - /url: index.php?module=Leads&action=index
+                - cell [ref=e48]:
+                  - img [ref=e49]
+                - cell "Organizations" [ref=e50]:
+                  - link "Organizations" [ref=e51] [cursor=pointer]:
+                    - /url: index.php?module=Accounts&action=index
+                - cell [ref=e52]:
+                  - img [ref=e53]
+                - cell "Contacts" [ref=e54]:
+                  - link "Contacts" [ref=e55] [cursor=pointer]:
+                    - /url: index.php?module=Contacts&action=index
+                - cell [ref=e56]:
+                  - img [ref=e57]
+                - cell "Opportunities" [ref=e58]:
+                  - link "Opportunities" [ref=e59] [cursor=pointer]:
+                    - /url: index.php?module=Potentials&action=index
+                - cell [ref=e60]:
+                  - img [ref=e61]
+                - cell "Products" [ref=e62]:
+                  - link "Products" [ref=e63] [cursor=pointer]:
+                    - /url: index.php?module=Products&action=index
+                - cell [ref=e64]:
+                  - img [ref=e65]
+                - cell "Documents" [ref=e66]:
+                  - link "Documents" [ref=e67] [cursor=pointer]:
+                    - /url: index.php?module=Documents&action=index
+                - cell [ref=e68]:
+                  - img [ref=e69]
+                - cell "Email" [ref=e70]:
+                  - link "Email" [ref=e71] [cursor=pointer]:
+                    - /url: index.php?module=Emails&action=index
+                - cell [ref=e72]:
+                  - img [ref=e73]
+                - cell "Trouble Tickets" [ref=e74]:
+                  - link "Trouble Tickets" [ref=e75] [cursor=pointer]:
+                    - /url: index.php?module=HelpDesk&action=index
+                - cell [ref=e76]:
+                  - img [ref=e77]
+                - cell "Dashboard" [ref=e78]:
+                  - link "Dashboard" [ref=e79] [cursor=pointer]:
+                    - /url: index.php?module=Dashboard&action=index
+                - cell [ref=e80]:
+                  - img [ref=e81]
+                - cell "More" [ref=e82]:
+                  - link "More" [ref=e83] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: More
+                    - img [ref=e84]
+                - cell [ref=e85]:
+                  - img [ref=e86]
+                - cell "Quick Create..." [ref=e87]:
+                  - combobox [ref=e88]:
+                    - option "Quick Create..." [selected]
+                    - option "New Organization"
+                    - option "New Asset"
+                    - option "New To Do"
+                    - option "New Campaign"
+                    - option "New Comment"
+                    - option "New Contact"
+                    - option "New Document"
+                    - option "New Event"
+                    - option "New Ticket"
+                    - option "New Lead"
+                    - option "New Opportunity"
+                    - option "New PriceBook"
+                    - option "New Product"
+                    - option "New Project"
+                    - option "New Project Milestone"
+                    - option "New Project Task"
+                    - option "New Service Contract"
+                    - option "New Service"
+                    - option "New Vendor"
+        - cell [ref=e89]
+  - table [ref=e90]:
+    - rowgroup [ref=e91]:
+      - row [ref=e92]:
+        - cell [ref=e93]
+      - row "Leads Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e94]:
+        - cell "Leads" [ref=e95]:
+          - link "Leads" [ref=e96] [cursor=pointer]:
+            - /url: index.php?action=ListView&module=Leads&parenttab=Marketing
+        - cell "Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e97]:
+          - table [ref=e98]:
+            - rowgroup [ref=e99]:
+              - row "Create Lead... Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Import Leads Export Leads Leads Settings" [ref=e100]:
+                - cell [ref=e101]
+                - cell "Create Lead..." [ref=e102]:
+                  - table [ref=e103]:
+                    - rowgroup [ref=e104]:
+                      - row "Create Lead..." [ref=e105]:
+                        - cell "Create Lead..." [ref=e106]:
+                          - table [ref=e107]:
+                            - rowgroup [ref=e108]:
+                              - row "Create Lead..." [ref=e109]:
+                                - cell "Create Lead..." [ref=e110]:
+                                  - link "Create Lead..." [ref=e111] [cursor=pointer]:
+                                    - /url: index.php?module=Leads&action=EditView&return_action=DetailView&parenttab=Marketing
+                                    - img "Create Lead..." [ref=e112]
+                                - cell [ref=e113]:
+                                  - img [ref=e114]
+                - cell [ref=e115]
+                - cell "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed" [ref=e116]:
+                  - table [ref=e117]:
+                    - rowgroup [ref=e118]:
+                      - row "Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed" [ref=e119]:
+                        - cell "Open Calendar..." [ref=e120]:
+                          - link "Open Calendar..." [ref=e121] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Open Calendar..." [ref=e122]
+                        - cell "Show World Clock..." [ref=e123]:
+                          - link "Show World Clock..." [ref=e124] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Show World Clock..." [ref=e125]
+                        - cell "Open Calculator..." [ref=e126]:
+                          - link "Open Calculator..." [ref=e127] [cursor=pointer]:
+                            - /url: "#"
+                            - img "Open Calculator..." [ref=e128]
+                        - cell "Chat..." [ref=e129]:
+                          - link "Chat..." [ref=e130] [cursor=pointer]:
+                            - /url: javascript:;
+                            - img "Chat..." [ref=e131]
+                        - cell "Last Viewed" [ref=e132]:
+                          - img "Last Viewed" [ref=e133]
+                - cell [ref=e134]
+                - cell "Import Leads Export Leads" [ref=e135]:
+                  - table [ref=e136]:
+                    - rowgroup [ref=e137]:
+                      - row "Import Leads Export Leads" [ref=e138]:
+                        - cell "Import Leads" [ref=e139]:
+                          - link "Import Leads" [ref=e140] [cursor=pointer]:
+                            - /url: index.php?module=Leads&action=Import&step=1&return_module=Leads&return_action=index&parenttab=Marketing
+                            - img "Import Leads" [ref=e141]
+                        - cell "Export Leads" [ref=e142]:
+                          - link "Export Leads" [ref=e143] [cursor=pointer]:
+                            - /url: javascript:void(0)
+                            - img "Export Leads" [ref=e144]
+                        - cell [ref=e145]:
+                          - img [ref=e146]
+                - cell [ref=e147]
+                - cell "Leads Settings" [ref=e148]:
+                  - table [ref=e149]:
+                    - rowgroup [ref=e150]:
+                      - row "Leads Settings" [ref=e151]:
+                        - cell "Leads Settings" [ref=e152]:
+                          - link "Leads Settings" [ref=e153] [cursor=pointer]:
+                            - /url: index.php?module=Settings&action=ModuleManager&module_settings=true&formodule=Leads&parenttab=Settings
+                            - img "Leads Settings" [ref=e154]
+  - table [ref=e155]:
+    - rowgroup [ref=e156]:
+      - 'row "[ LEA116 ] Ajay Kumar - Editing Lead Information Updated today (12 Mar 2026) By Administrator Lead Information Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e157]':
+        - cell [ref=e158]:
+          - img [ref=e159]
+        - 'cell "[ LEA116 ] Ajay Kumar - Editing Lead Information Updated today (12 Mar 2026) By Administrator Lead Information Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e160]':
+          - generic [ref=e161]:
+            - generic [ref=e162]: "[ LEA116 ] Ajay Kumar - Editing Lead Information"
+            - text: Updated today (12 Mar 2026) By Administrator
+            - separator [ref=e163]
+            - table [ref=e165]:
+              - rowgroup [ref=e166]:
+                - row "Lead Information" [ref=e167]:
+                  - cell "Lead Information" [ref=e168]:
+                    - table [ref=e169]:
+                      - rowgroup [ref=e170]:
+                        - row "Lead Information" [ref=e171]:
+                          - cell [ref=e172]
+                          - cell "Lead Information" [ref=e173]
+                          - cell [ref=e174]
+                          - cell [ref=e175]
+                - 'row "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e176]':
+                  - 'cell "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e177]':
+                    - table [ref=e178]:
+                      - rowgroup [ref=e179]:
+                        - 'row "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e180]':
+                          - 'cell "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e181]':
+                            - table [ref=e182]:
+                              - rowgroup [ref=e183]:
+                                - row:
+                                  - cell
+                                - 'row "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e184]':
+                                  - 'cell "Save Cancel Lead Information First Name --None-- Ajay Lead No LEA116 *Last Name Kumar Phone *Company Google Mobile Title Fax Lead Source --None-- Email Industry --None-- Website Annual Revenue: ($) 0 Lead Status --None-- No Of Employees 0 Rating --None-- Secondary Email *Assigned To User Group Administrator Address Information Street PO Box Postal Code City Country State Description Information Description Save Cancel" [ref=e185]':
+                                    - table [ref=e186]:
+                                      - rowgroup [ref=e187]:
+                                        - row "Save Cancel" [ref=e188]:
+                                          - cell "Save Cancel" [ref=e189]:
+                                            - generic [ref=e190]:
+                                              - button "Save" [ref=e191]
+                                              - button "Cancel" [ref=e192]
+                                        - row "Lead Information" [ref=e193]:
+                                          - cell "Lead Information" [ref=e194]
+                                        - row "First Name --None-- Ajay Lead No LEA116" [ref=e195]:
+                                          - cell "First Name" [ref=e196]
+                                          - cell "--None-- Ajay" [ref=e197]:
+                                            - combobox [ref=e198]:
+                                              - option "--None--" [selected]
+                                              - option "Mr."
+                                              - option "Ms."
+                                              - option "Mrs."
+                                              - option "Dr."
+                                              - option "Prof."
+                                            - textbox [ref=e199]: Ajay
+                                          - cell "Lead No" [ref=e200]: Lead No
+                                          - cell "LEA116" [ref=e201]:
+                                            - textbox [ref=e202]: LEA116
+                                        - row "*Last Name Kumar Phone" [ref=e203]:
+                                          - cell "*Last Name" [ref=e204]
+                                          - cell "Kumar" [ref=e205]:
+                                            - textbox [ref=e206]: Kumar
+                                          - cell "Phone" [ref=e207]: Phone
+                                          - cell [ref=e208]:
+                                            - textbox [ref=e209]
+                                        - row "*Company Google Mobile" [ref=e210]:
+                                          - cell "*Company" [ref=e211]
+                                          - cell "Google" [ref=e212]:
+                                            - textbox [active] [ref=e213]: Google
+                                          - cell "Mobile" [ref=e214]: Mobile
+                                          - cell [ref=e215]:
+                                            - textbox [ref=e216]
+                                        - row "Title Fax" [ref=e217]:
+                                          - cell "Title" [ref=e218]: Title
+                                          - cell [ref=e219]:
+                                            - textbox [ref=e220]
+                                          - cell "Fax" [ref=e221]: Fax
+                                          - cell [ref=e222]:
+                                            - textbox [ref=e223]
+                                        - row "Lead Source --None-- Email" [ref=e224]:
+                                          - cell "Lead Source" [ref=e225]: Lead Source
+                                          - cell "--None--" [ref=e226]:
+                                            - combobox [ref=e227]:
+                                              - option "--None--" [selected]
+                                              - option "Cold Call"
+                                              - option "Existing Customer"
+                                              - option "Self Generated"
+                                              - option "Employee"
+                                              - option "Partner"
+                                              - option "Public Relations"
+                                              - option "Direct Mail"
+                                              - option "Conference"
+                                              - option "Trade Show"
+                                              - option "Web Site"
+                                              - option "Word of mouth"
+                                              - option "Other"
+                                          - cell "Email" [ref=e228]: Email
+                                          - cell [ref=e229]:
+                                            - textbox [ref=e230]
+                                        - row "Industry --None-- Website" [ref=e231]:
+                                          - cell "Industry" [ref=e232]: Industry
+                                          - cell "--None--" [ref=e233]:
+                                            - combobox [ref=e234]:
+                                              - option "--None--" [selected]
+                                              - option "Apparel"
+                                              - option "Banking"
+                                              - option "Biotechnology"
+                                              - option "Chemicals"
+                                              - option "Communications"
+                                              - option "Construction"
+                                              - option "Consulting"
+                                              - option "Education"
+                                              - option "Electronics"
+                                              - option "Energy"
+                                              - option "Engineering"
+                                              - option "Entertainment"
+                                              - option "Environmental"
+                                              - option "Finance"
+                                              - option "Food & Beverage"
+                                              - option "Government"
+                                              - option "Healthcare"
+                                              - option "Hospitality"
+                                              - option "Insurance"
+                                              - option "Machinery"
+                                              - option "Manufacturing"
+                                              - option "Media"
+                                              - option "Not For Profit"
+                                              - option "Recreation"
+                                              - option "Retail"
+                                              - option "Shipping"
+                                              - option "Technology"
+                                              - option "Telecommunications"
+                                              - option "Transportation"
+                                              - option "Utilities"
+                                              - option "Other"
+                                          - cell "Website" [ref=e235]: Website
+                                          - cell [ref=e236]:
+                                            - textbox [ref=e237]
+                                        - 'row "Annual Revenue: ($) 0 Lead Status --None--" [ref=e238]':
+                                          - 'cell "Annual Revenue: ($)" [ref=e239]': "Annual Revenue: ($)"
+                                          - cell "0" [ref=e240]:
+                                            - textbox [ref=e241]: "0"
+                                          - cell "Lead Status" [ref=e242]: Lead Status
+                                          - cell "--None--" [ref=e243]:
+                                            - combobox [ref=e244]:
+                                              - option "--None--" [selected]
+                                              - option "Attempted to Contact"
+                                              - option "Cold"
+                                              - option "Contact in Future"
+                                              - option "Contacted"
+                                              - option "Hot"
+                                              - option "Junk Lead"
+                                              - option "Lost Lead"
+                                              - option "Not Contacted"
+                                              - option "Pre Qualified"
+                                              - option "Qualified"
+                                              - option "Warm"
+                                        - row "No Of Employees 0 Rating --None--" [ref=e245]:
+                                          - cell "No Of Employees" [ref=e246]: No Of Employees
+                                          - cell "0" [ref=e247]:
+                                            - textbox [ref=e248]: "0"
+                                          - cell "Rating" [ref=e249]: Rating
+                                          - cell "--None--" [ref=e250]:
+                                            - combobox [ref=e251]:
+                                              - option "--None--" [selected]
+                                              - option "Acquired"
+                                              - option "Active"
+                                              - option "Market Failed"
+                                              - option "Project Cancelled"
+                                              - option "Shutdown"
+                                        - row "Secondary Email *Assigned To User Group Administrator" [ref=e252]:
+                                          - cell "Secondary Email" [ref=e253]: Secondary Email
+                                          - cell [ref=e254]:
+                                            - textbox [ref=e255]
+                                          - cell "*Assigned To" [ref=e256]
+                                          - cell "User Group Administrator" [ref=e257]:
+                                            - radio [checked] [ref=e258]
+                                            - text: User
+                                            - radio [ref=e259]
+                                            - text: Group
+                                            - combobox [ref=e261]:
+                                              - option "Administrator" [selected]
+                                        - row "Address Information" [ref=e262]:
+                                          - cell "Address Information" [ref=e263]
+                                        - row "Street PO Box" [ref=e264]:
+                                          - cell "Street" [ref=e265]: Street
+                                          - cell [ref=e266]:
+                                            - textbox [ref=e267]
+                                          - cell "PO Box" [ref=e268]: PO Box
+                                          - cell [ref=e269]:
+                                            - textbox [ref=e270]
+                                        - row "Postal Code City" [ref=e271]:
+                                          - cell "Postal Code" [ref=e272]: Postal Code
+                                          - cell [ref=e273]:
+                                            - textbox [ref=e274]
+                                          - cell "City" [ref=e275]: City
+                                          - cell [ref=e276]:
+                                            - textbox [ref=e277]
+                                        - row "Country State" [ref=e278]:
+                                          - cell "Country" [ref=e279]: Country
+                                          - cell [ref=e280]:
+                                            - textbox [ref=e281]
+                                          - cell "State" [ref=e282]: State
+                                          - cell [ref=e283]:
+                                            - textbox [ref=e284]
+                                        - row "Description Information" [ref=e285]:
+                                          - cell "Description Information" [ref=e286]
+                                        - row "Description" [ref=e287]:
+                                          - cell "Description" [ref=e288]: Description
+                                          - cell [ref=e289]:
+                                            - textbox [ref=e290]
+                                        - row "Save Cancel" [ref=e291]:
+                                          - cell "Save Cancel" [ref=e292]:
+                                            - generic [ref=e293]:
+                                              - button "Save" [ref=e294]
+                                              - button "Cancel" [ref=e295]
+        - cell [ref=e296]:
+          - img [ref=e297]
+  - table [ref=e298]:
+    - rowgroup [ref=e299]:
+      - row "Powered by vtiger CRM 5.4.0 © 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e300]:
+        - cell "Powered by vtiger CRM 5.4.0" [ref=e301]:
+          - generic [ref=e302]: Powered by vtiger CRM 5.4.0
+        - cell "© 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e303]:
+          - generic [ref=e304]:
+            - text: © 2004-2026
+            - link "vtiger.com" [ref=e305] [cursor=pointer]:
+              - /url: http://www.vtiger.com
+            - text: "|"
+            - link "Read License" [ref=e306] [cursor=pointer]:
+              - /url: javascript:mypopup()
+            - text: "|"
+            - link "Privacy Policy" [ref=e307] [cursor=pointer]:
+              - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```

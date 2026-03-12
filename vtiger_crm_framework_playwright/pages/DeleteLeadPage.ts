@@ -1,43 +1,39 @@
-import { Page, Locator, expect } from '@playwright/test';
+  
+import { Page, Locator } from '@playwright/test';
 
 export class DeleteLeadPage {
 
-    readonly page: Page;
-    readonly leadLink: Locator;
-    readonly deleteBtn: Locator;
+  readonly page: Page;
 
-    constructor(page: Page) {
+  readonly leadLink: Locator;
 
-        this.page = page;
+  readonly deleteBtn: Locator;
 
-        // Lead name link
-        this.leadLink = page.getByRole('link', { name: 'Ajay Kumar' }).first();
+  constructor(page: Page) {
 
-        // Delete button on Lead detail page
-        this.deleteBtn = page.locator('input[value="Delete"]').first();
+    this.page = page;
 
-    }
+    this.leadLink = page.getByRole('link', { name: 'Ajay' }).first();
 
-    async openLead() {
+    this.deleteBtn = page.locator('input[value="Delete"]').first();
 
-        // Wait for leads table to load
-        await this.page.waitForSelector('table');
+  }
 
-        // Click lead
-        await this.leadLink.click();
+  async openLead() {
 
-    }
+    await this.page.waitForSelector('table');
 
-    async deleteLead() {
+    await this.leadLink.click();
 
-        // Click delete button
-        await this.deleteBtn.click();
+  }
 
-        // Accept alert popup
-        this.page.on('dialog', async dialog => {
-            await dialog.accept();
-        });
+  async deleteLead() {
 
-    }
+    this.page.once('dialog', dialog => dialog.accept());
+
+    await this.deleteBtn.click();
+
+  }
 
 }
+
