@@ -1,4 +1,4 @@
-import { test as base, expect } from '@playwright/test';
+import { test as base, expect } from '@playwright/test';   /// expect - assertion ke liye use hota hai (verify karne ke liye)
 
 import { LoginPage } from '../pages/LoginPage';
 import { HomePage } from '../pages/HomePage';
@@ -14,7 +14,7 @@ type MyFixtures = {
 
 };
 
-export const test = base.extend<MyFixtures>({
+export const test = base.extend<MyFixtures>({  ///   base.extend  - Playwright ke default test ko extend kar rahe hain
 
     loginPage: async ({ page }, use) => {
 

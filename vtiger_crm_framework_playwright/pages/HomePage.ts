@@ -6,6 +6,7 @@ export class HomePage extends BasePage {
 
   readonly leadsLink: Locator;
   readonly homeLogo: Locator;
+  readonly orgnigetionLink: Locator;
 
   constructor(page: Page) {
 
@@ -13,6 +14,7 @@ export class HomePage extends BasePage {
 
     this.leadsLink = page.locator('a[href="index.php?module=Leads&action=index"]');
 
+    this.orgnigetionLink = page.locator("//a[text()='Organizations']").first();
     this.homeLogo = page.locator('img[src*="vtiger-crm-logo"]');
   }
 
@@ -30,6 +32,20 @@ export class HomePage extends BasePage {
     ]);
 
   }
+
+
+async clickOrganizations(){
+
+ await Promise.all([
+      this.page.waitForLoadState('domcontentloaded'),
+      this.orgnigetionLink.click()]);
+
+}
+
+
+
+
+
 
 }
 
