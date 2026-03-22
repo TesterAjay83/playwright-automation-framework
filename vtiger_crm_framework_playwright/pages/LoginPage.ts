@@ -1,5 +1,7 @@
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
+import { Assert } from '../utils/assertions';
+
 
 export class LoginPage extends BasePage {
 
@@ -19,6 +21,20 @@ export class LoginPage extends BasePage {
 
     }
 
+// async verifyLoginPage() {
+
+//   await Assert.visible(this.username, 'Username Field');
+//   await Assert.visible(this.password, 'Password Field');
+//   await Assert.visible(this.loginBtn, 'Login Button');
+
+//   await Assert.enabled(this.loginBtn, 'Login Button');
+//   await Assert.clickable(this.loginBtn, 'Login Button');
+// }
+
+
+
+
+
     async loadLoginPage(url: string) {
 
         await this.navigate(url);
@@ -32,6 +48,12 @@ export class LoginPage extends BasePage {
         await expect(this.password).toBeVisible();
 
         await expect(this.loginBtn).toBeVisible();
+
+        await Assert.visible(this.username, 'Username Field');
+        await Assert.visible(this.password, 'Password Field');
+        await Assert.visible(this.loginBtn, 'Login Button');
+        await Assert.enabled(this.loginBtn, 'Login Button');
+        await Assert.clickable(this.loginBtn, 'Login Button');
 
     }
 

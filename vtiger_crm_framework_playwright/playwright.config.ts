@@ -4,6 +4,10 @@ export default defineConfig({
 
   testDir: './tests',
 
+  workers: 1,          
+  fullyParallel: false, 
+
+
   timeout: 120000,
 
   globalSetup: './global-setup.ts',
@@ -27,6 +31,7 @@ export default defineConfig({
   },
 
    reporter: [
+    ['list'],
     ['list'],
     ['html'],
     ['allure-playwright']

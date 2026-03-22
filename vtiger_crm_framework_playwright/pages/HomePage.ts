@@ -1,6 +1,7 @@
   
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
+import { Assert } from '../utils/assertions';
 
 export class HomePage extends BasePage {
 
@@ -21,6 +22,8 @@ export class HomePage extends BasePage {
   async verifyHomePage() {
 
     await expect(this.homeLogo).toBeVisible();
+   await Assert.visible(this.homeLogo, 'Home Logo');
+
 
   }
 

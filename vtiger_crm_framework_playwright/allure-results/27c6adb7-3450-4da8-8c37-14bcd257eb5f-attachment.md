@@ -1,0 +1,510 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - table [ref=e2]:
+    - rowgroup [ref=e3]:
+      - row "vtiger-crm-logo.gif Search... Find Administrator" [ref=e4]:
+        - cell "vtiger-crm-logo.gif" [ref=e5]:
+          - img "vtiger-crm-logo.gif" [ref=e6]
+        - cell "Search... Find" [ref=e7]:
+          - table [ref=e9]:
+            - rowgroup [ref=e10]:
+              - row "Search... Find" [ref=e11]:
+                - cell "Search..." [ref=e12]:
+                  - textbox [ref=e13]: Search...
+                - cell [ref=e14]:
+                  - link:
+                    - /url: javascript:void(0);
+                    - img [ref=e15] [cursor=pointer]
+                - cell "Find" [ref=e16]:
+                  - button "Find" [ref=e17] [cursor=pointer]
+        - cell "Administrator" [ref=e18]:
+          - table [ref=e19]:
+            - rowgroup [ref=e20]:
+              - row "Administrator" [ref=e21]:
+                - cell "Administrator" [ref=e22]
+                - cell [ref=e23]:
+                  - img [ref=e24]
+                - cell [ref=e25]:
+                  - img [ref=e27]
+                - cell [ref=e28]:
+                  - img [ref=e29]
+  - table [ref=e30]:
+    - rowgroup [ref=e31]:
+      - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e32]:
+        - cell [ref=e33]:
+          - link [ref=e34] [cursor=pointer]:
+            - /url: index.php?module=Home&action=index
+            - img [ref=e35]
+        - cell "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e36]:
+          - table [ref=e37]:
+            - rowgroup [ref=e38]:
+              - row "Calendar Leads Organizations Contacts Opportunities Products Documents Email Trouble Tickets Dashboard More Quick Create..." [ref=e39]:
+                - cell [ref=e40]:
+                  - img [ref=e41]
+                - cell "Calendar" [ref=e42]:
+                  - link "Calendar" [ref=e43] [cursor=pointer]:
+                    - /url: index.php?module=Calendar&action=index
+                - cell [ref=e44]:
+                  - img [ref=e45]
+                - cell "Leads" [ref=e46]:
+                  - link "Leads" [ref=e47] [cursor=pointer]:
+                    - /url: index.php?module=Leads&action=index
+                - cell [ref=e48]:
+                  - img [ref=e49]
+                - cell "Organizations" [ref=e50]:
+                  - link "Organizations" [ref=e51] [cursor=pointer]:
+                    - /url: index.php?module=Accounts&action=index
+                - cell [ref=e52]:
+                  - img [ref=e53]
+                - cell "Contacts" [ref=e54]:
+                  - link "Contacts" [ref=e55] [cursor=pointer]:
+                    - /url: index.php?module=Contacts&action=index
+                - cell [ref=e56]:
+                  - img [ref=e57]
+                - cell "Opportunities" [ref=e58]:
+                  - link "Opportunities" [ref=e59] [cursor=pointer]:
+                    - /url: index.php?module=Potentials&action=index
+                - cell [ref=e60]:
+                  - img [ref=e61]
+                - cell "Products" [ref=e62]:
+                  - link "Products" [ref=e63] [cursor=pointer]:
+                    - /url: index.php?module=Products&action=index
+                - cell [ref=e64]:
+                  - img [ref=e65]
+                - cell "Documents" [ref=e66]:
+                  - link "Documents" [ref=e67] [cursor=pointer]:
+                    - /url: index.php?module=Documents&action=index
+                - cell [ref=e68]:
+                  - img [ref=e69]
+                - cell "Email" [ref=e70]:
+                  - link "Email" [ref=e71] [cursor=pointer]:
+                    - /url: index.php?module=Emails&action=index
+                - cell [ref=e72]:
+                  - img [ref=e73]
+                - cell "Trouble Tickets" [ref=e74]:
+                  - link "Trouble Tickets" [ref=e75] [cursor=pointer]:
+                    - /url: index.php?module=HelpDesk&action=index
+                - cell [ref=e76]:
+                  - img [ref=e77]
+                - cell "Dashboard" [ref=e78]:
+                  - link "Dashboard" [ref=e79] [cursor=pointer]:
+                    - /url: index.php?module=Dashboard&action=index
+                - cell [ref=e80]:
+                  - img [ref=e81]
+                - cell "More" [ref=e82]:
+                  - link "More" [ref=e83] [cursor=pointer]:
+                    - /url: javascript:;
+                    - text: More
+                    - img [ref=e84]
+                - cell [ref=e85]:
+                  - img [ref=e86]
+                - cell "Quick Create..." [ref=e87]:
+                  - combobox [ref=e88]:
+                    - option "Quick Create..." [selected]
+                    - option "New Organization"
+                    - option "New Asset"
+                    - option "New To Do"
+                    - option "New Campaign"
+                    - option "New Comment"
+                    - option "New Contact"
+                    - option "New Document"
+                    - option "New Event"
+                    - option "New Ticket"
+                    - option "New Lead"
+                    - option "New Opportunity"
+                    - option "New PriceBook"
+                    - option "New Product"
+                    - option "New Project"
+                    - option "New Project Milestone"
+                    - option "New Project Task"
+                    - option "New Service Contract"
+                    - option "New Service"
+                    - option "New Vendor"
+        - cell [ref=e89]
+  - table [ref=e90]:
+    - rowgroup [ref=e91]:
+      - row "Home Open Calendar... Show World Clock... Open Calculator... Chat... Last Viewed Change layout" [ref=e92] [cursor=pointer]:
+        - cell "Home" [ref=e93]:
+          - link "Home" [ref=e94]:
+            - /url: index.php?action=index&module=Home
+        - cell [ref=e95]
+        - cell [ref=e96]:
+          - img [ref=e97]
+        - cell "Open Calendar..." [ref=e98]:
+          - img "Open Calendar..." [ref=e99]
+        - cell "Show World Clock..." [ref=e100]:
+          - img "Show World Clock..." [ref=e101]
+        - cell "Open Calculator..." [ref=e102]:
+          - img "Open Calculator..." [ref=e103]
+        - cell "Chat..." [ref=e104]:
+          - img "Chat..." [ref=e105]
+        - cell "Last Viewed" [ref=e106]:
+          - img "Last Viewed" [ref=e107]
+        - cell "Change layout" [ref=e108]:
+          - img "Change layout" [ref=e109]
+        - cell [ref=e110]
+  - table [ref=e111]:
+    - rowgroup [ref=e112]:
+      - row "My Recent FAQs Edit Refresh Hide Close Scroll More Pending Activities Edit Refresh Hide Close Scroll More Top Purchase Orders Edit Refresh Hide Close Scroll More My New Leads Edit Refresh Hide Close Scroll More Top Invoices Edit Refresh Hide Close Scroll More Top Sales Orders Edit Refresh Hide Close Scroll More My Group Allocation Edit Refresh Hide Close Scroll Upcoming Activities Edit Refresh Hide Close Scroll More Top Trouble Tickets Edit Refresh Hide Close Scroll More Key Metrics Edit Refresh Hide Close Scroll Top Quotes Edit Refresh Hide Close Scroll More Top Opportunities Edit Refresh Hide Close Scroll More Home Page Dashboard Edit Refresh Hide Close Scroll Top Organizations Edit Refresh Hide Close Scroll More" [ref=e113]:
+        - cell "My Recent FAQs Edit Refresh Hide Close Scroll More Pending Activities Edit Refresh Hide Close Scroll More Top Purchase Orders Edit Refresh Hide Close Scroll More My New Leads Edit Refresh Hide Close Scroll More Top Invoices Edit Refresh Hide Close Scroll More Top Sales Orders Edit Refresh Hide Close Scroll More My Group Allocation Edit Refresh Hide Close Scroll Upcoming Activities Edit Refresh Hide Close Scroll More Top Trouble Tickets Edit Refresh Hide Close Scroll More Key Metrics Edit Refresh Hide Close Scroll Top Quotes Edit Refresh Hide Close Scroll More Top Opportunities Edit Refresh Hide Close Scroll More Home Page Dashboard Edit Refresh Hide Close Scroll Top Organizations Edit Refresh Hide Close Scroll More" [ref=e114]:
+          - generic [ref=e115]:
+            - generic [ref=e116]:
+              - table [ref=e117]:
+                - rowgroup [ref=e118]:
+                  - row "My Recent FAQs Edit Refresh Hide Close" [ref=e119]:
+                    - cell "My Recent FAQs" [ref=e120]
+                    - cell [ref=e121]:
+                      - img [ref=e123]
+                    - cell "Edit Refresh Hide Close" [ref=e124]:
+                      - img "Edit" [ref=e126] [cursor=pointer]
+                      - img "Refresh" [ref=e128] [cursor=pointer]
+                      - img "Hide" [ref=e130] [cursor=pointer]
+                      - img "Close" [ref=e131]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e132]:
+                - rowgroup [ref=e133]:
+                  - row "Scroll More" [ref=e134]:
+                    - cell "Scroll" [ref=e135]:
+                      - link "Scroll" [ref=e136] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e137]:
+                      - link "More" [ref=e138] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e139]:
+              - table [ref=e140]:
+                - rowgroup [ref=e141]:
+                  - row "Pending Activities Edit Refresh Hide Close" [ref=e142]:
+                    - cell "Pending Activities" [ref=e143]
+                    - cell [ref=e144]:
+                      - img [ref=e146]
+                    - cell "Edit Refresh Hide Close" [ref=e147]:
+                      - img "Edit" [ref=e149] [cursor=pointer]
+                      - img "Refresh" [ref=e151] [cursor=pointer]
+                      - img "Hide" [ref=e153] [cursor=pointer]
+                      - img "Close" [ref=e154]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e155]:
+                - rowgroup [ref=e156]:
+                  - row "Scroll More" [ref=e157]:
+                    - cell "Scroll" [ref=e158]:
+                      - link "Scroll" [ref=e159] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e160]:
+                      - link "More" [ref=e161] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e162]:
+              - table [ref=e163]:
+                - rowgroup [ref=e164]:
+                  - row "Top Purchase Orders Edit Refresh Hide Close" [ref=e165]:
+                    - cell "Top Purchase Orders" [ref=e166]
+                    - cell [ref=e167]:
+                      - img [ref=e169]
+                    - cell "Edit Refresh Hide Close" [ref=e170]:
+                      - img "Edit" [ref=e172] [cursor=pointer]
+                      - img "Refresh" [ref=e174] [cursor=pointer]
+                      - img "Hide" [ref=e176] [cursor=pointer]
+                      - img "Close" [ref=e177]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e178]:
+                - rowgroup [ref=e179]:
+                  - row "Scroll More" [ref=e180]:
+                    - cell "Scroll" [ref=e181]:
+                      - link "Scroll" [ref=e182] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e183]:
+                      - link "More" [ref=e184] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e185]:
+              - table [ref=e186]:
+                - rowgroup [ref=e187]:
+                  - row "My New Leads Edit Refresh Hide Close" [ref=e188]:
+                    - cell "My New Leads" [ref=e189]
+                    - cell [ref=e190]:
+                      - img [ref=e192]
+                    - cell "Edit Refresh Hide Close" [ref=e193]:
+                      - img "Edit" [ref=e195] [cursor=pointer]
+                      - img "Refresh" [ref=e197] [cursor=pointer]
+                      - img "Hide" [ref=e199] [cursor=pointer]
+                      - img "Close" [ref=e200]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e201]:
+                - rowgroup [ref=e202]:
+                  - row "Scroll More" [ref=e203]:
+                    - cell "Scroll" [ref=e204]:
+                      - link "Scroll" [ref=e205] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e206]:
+                      - link "More" [ref=e207] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e208]:
+              - table [ref=e209]:
+                - rowgroup [ref=e210]:
+                  - row "Top Invoices Edit Refresh Hide Close" [ref=e211]:
+                    - cell "Top Invoices" [ref=e212]
+                    - cell [ref=e213]:
+                      - img [ref=e215]
+                    - cell "Edit Refresh Hide Close" [ref=e216]:
+                      - img "Edit" [ref=e218] [cursor=pointer]
+                      - img "Refresh" [ref=e220] [cursor=pointer]
+                      - img "Hide" [ref=e222] [cursor=pointer]
+                      - img "Close" [ref=e223]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e224]:
+                - rowgroup [ref=e225]:
+                  - row "Scroll More" [ref=e226]:
+                    - cell "Scroll" [ref=e227]:
+                      - link "Scroll" [ref=e228] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e229]:
+                      - link "More" [ref=e230] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e231]:
+              - table [ref=e232]:
+                - rowgroup [ref=e233]:
+                  - row "Top Sales Orders Edit Refresh Hide Close" [ref=e234]:
+                    - cell "Top Sales Orders" [ref=e235]
+                    - cell [ref=e236]:
+                      - img [ref=e238]
+                    - cell "Edit Refresh Hide Close" [ref=e239]:
+                      - img "Edit" [ref=e241] [cursor=pointer]
+                      - img "Refresh" [ref=e243] [cursor=pointer]
+                      - img "Hide" [ref=e245] [cursor=pointer]
+                      - img "Close" [ref=e246]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e247]:
+                - rowgroup [ref=e248]:
+                  - row "Scroll More" [ref=e249]:
+                    - cell "Scroll" [ref=e250]:
+                      - link "Scroll" [ref=e251] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e252]:
+                      - link "More" [ref=e253] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e254]:
+              - table [ref=e255]:
+                - rowgroup [ref=e256]:
+                  - row "My Group Allocation Edit Refresh Hide Close" [ref=e257]:
+                    - cell "My Group Allocation" [ref=e258]
+                    - cell [ref=e259]:
+                      - img [ref=e261]
+                    - cell "Edit Refresh Hide Close" [ref=e262]:
+                      - img "Edit" [ref=e264] [cursor=pointer]
+                      - img "Refresh" [ref=e266] [cursor=pointer]
+                      - img "Hide" [ref=e268] [cursor=pointer]
+                      - img "Close" [ref=e269]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e270]:
+                - rowgroup [ref=e271]:
+                  - row "Scroll" [ref=e272]:
+                    - cell "Scroll" [ref=e273]:
+                      - link "Scroll" [ref=e274] [cursor=pointer]:
+                        - /url: javascript:;
+            - generic [ref=e275]:
+              - table [ref=e276]:
+                - rowgroup [ref=e277]:
+                  - row "Upcoming Activities Edit Refresh Hide Close" [ref=e278]:
+                    - cell "Upcoming Activities" [ref=e279]
+                    - cell [ref=e280]:
+                      - img [ref=e282]
+                    - cell "Edit Refresh Hide Close" [ref=e283]:
+                      - img "Edit" [ref=e285] [cursor=pointer]
+                      - img "Refresh" [ref=e287] [cursor=pointer]
+                      - img "Hide" [ref=e289] [cursor=pointer]
+                      - img "Close" [ref=e290]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e291]:
+                - rowgroup [ref=e292]:
+                  - row "Scroll More" [ref=e293]:
+                    - cell "Scroll" [ref=e294]:
+                      - link "Scroll" [ref=e295] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e296]:
+                      - link "More" [ref=e297] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e298]:
+              - table [ref=e299]:
+                - rowgroup [ref=e300]:
+                  - row "Top Trouble Tickets Edit Refresh Hide Close" [ref=e301]:
+                    - cell "Top Trouble Tickets" [ref=e302]
+                    - cell [ref=e303]:
+                      - img [ref=e305]
+                    - cell "Edit Refresh Hide Close" [ref=e306]:
+                      - img "Edit" [ref=e308] [cursor=pointer]
+                      - img "Refresh" [ref=e310] [cursor=pointer]
+                      - img "Hide" [ref=e312] [cursor=pointer]
+                      - img "Close" [ref=e313]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e314]:
+                - rowgroup [ref=e315]:
+                  - row "Scroll More" [ref=e316]:
+                    - cell "Scroll" [ref=e317]:
+                      - link "Scroll" [ref=e318] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e319]:
+                      - link "More" [ref=e320] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e321]:
+              - table [ref=e322]:
+                - rowgroup [ref=e323]:
+                  - row "Key Metrics Edit Refresh Hide Close" [ref=e324]:
+                    - cell "Key Metrics" [ref=e325]
+                    - cell [ref=e326]:
+                      - img [ref=e328]
+                    - cell "Edit Refresh Hide Close" [ref=e329]:
+                      - img "Edit" [ref=e330]
+                      - img "Refresh" [ref=e332] [cursor=pointer]
+                      - img "Hide" [ref=e334] [cursor=pointer]
+                      - img "Close" [ref=e335]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e336]:
+                - rowgroup [ref=e337]:
+                  - row "Scroll" [ref=e338]:
+                    - cell "Scroll" [ref=e339]:
+                      - link "Scroll" [ref=e340] [cursor=pointer]:
+                        - /url: javascript:;
+            - generic [ref=e341]:
+              - table [ref=e342]:
+                - rowgroup [ref=e343]:
+                  - row "Top Quotes Edit Refresh Hide Close" [ref=e344]:
+                    - cell "Top Quotes" [ref=e345]
+                    - cell [ref=e346]:
+                      - img [ref=e348]
+                    - cell "Edit Refresh Hide Close" [ref=e349]:
+                      - img "Edit" [ref=e351] [cursor=pointer]
+                      - img "Refresh" [ref=e353] [cursor=pointer]
+                      - img "Hide" [ref=e355] [cursor=pointer]
+                      - img "Close" [ref=e356]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e357]:
+                - rowgroup [ref=e358]:
+                  - row "Scroll More" [ref=e359]:
+                    - cell "Scroll" [ref=e360]:
+                      - link "Scroll" [ref=e361] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e362]:
+                      - link "More" [ref=e363] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e364]:
+              - table [ref=e365]:
+                - rowgroup [ref=e366]:
+                  - row "Top Opportunities Edit Refresh Hide Close" [ref=e367]:
+                    - cell "Top Opportunities" [ref=e368]
+                    - cell [ref=e369]:
+                      - img [ref=e371]
+                    - cell "Edit Refresh Hide Close" [ref=e372]:
+                      - img "Edit" [ref=e374] [cursor=pointer]
+                      - img "Refresh" [ref=e376] [cursor=pointer]
+                      - img "Hide" [ref=e378] [cursor=pointer]
+                      - img "Close" [ref=e379]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e380]:
+                - rowgroup [ref=e381]:
+                  - row "Scroll More" [ref=e382]:
+                    - cell "Scroll" [ref=e383]:
+                      - link "Scroll" [ref=e384] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e385]:
+                      - link "More" [ref=e386] [cursor=pointer]:
+                        - /url: "#"
+            - generic [ref=e387]:
+              - table [ref=e388]:
+                - rowgroup [ref=e389]:
+                  - row "Home Page Dashboard Edit Refresh Hide Close" [ref=e390]:
+                    - cell "Home Page Dashboard" [ref=e391]
+                    - cell [ref=e392]:
+                      - img [ref=e394]
+                    - cell "Edit Refresh Hide Close" [ref=e395]:
+                      - img "Edit" [ref=e396]
+                      - img "Refresh" [ref=e398] [cursor=pointer]
+                      - img "Hide" [ref=e400] [cursor=pointer]
+                      - img "Close" [ref=e401]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e402]:
+                - rowgroup [ref=e403]:
+                  - row "Scroll" [ref=e404]:
+                    - cell "Scroll" [ref=e405]:
+                      - link "Scroll" [ref=e406] [cursor=pointer]:
+                        - /url: javascript:;
+            - generic [ref=e407]:
+              - table [ref=e408]:
+                - rowgroup [ref=e409]:
+                  - row "Top Organizations Edit Refresh Hide Close" [ref=e410]:
+                    - cell "Top Organizations" [ref=e411]
+                    - cell [ref=e412]:
+                      - img [ref=e414]
+                    - cell "Edit Refresh Hide Close" [ref=e415]:
+                      - img "Edit" [ref=e417] [cursor=pointer]
+                      - img "Refresh" [ref=e419] [cursor=pointer]
+                      - img "Hide" [ref=e421] [cursor=pointer]
+                      - img "Close" [ref=e422]
+              - table:
+                - rowgroup:
+                  - row:
+                    - cell
+              - table [ref=e423]:
+                - rowgroup [ref=e424]:
+                  - row "Scroll More" [ref=e425]:
+                    - cell "Scroll" [ref=e426]:
+                      - link "Scroll" [ref=e427] [cursor=pointer]:
+                        - /url: javascript:;
+                    - cell "More" [ref=e428]:
+                      - link "More" [ref=e429] [cursor=pointer]:
+                        - /url: "#"
+  - table [ref=e430]:
+    - rowgroup [ref=e431]:
+      - row "Powered by vtiger CRM 5.4.0 © 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e432]:
+        - cell "Powered by vtiger CRM 5.4.0" [ref=e433]:
+          - generic [ref=e434]: Powered by vtiger CRM 5.4.0
+        - cell "© 2004-2026 vtiger.com | Read License | Privacy Policy" [ref=e435]:
+          - generic [ref=e436]:
+            - text: © 2004-2026
+            - link "vtiger.com" [ref=e437] [cursor=pointer]:
+              - /url: http://www.vtiger.com
+            - text: "|"
+            - link "Read License" [ref=e438] [cursor=pointer]:
+              - /url: javascript:mypopup()
+            - text: "|"
+            - link "Privacy Policy" [ref=e439] [cursor=pointer]:
+              - /url: http://www.vtiger.com/products/crm/privacy_policy.html
+```

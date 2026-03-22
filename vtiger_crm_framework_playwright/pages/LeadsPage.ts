@@ -1,6 +1,7 @@
   
 import { Page, Locator, expect } from '@playwright/test';
 import { BasePage } from './basePage';
+import { Assert } from '../utils/assertions';
 
 export class LeadsPage extends BasePage {
 
@@ -15,8 +16,9 @@ export class LeadsPage extends BasePage {
   }
 
   async verifyLeadsPage() {
-
     await expect(this.createLeadBtn).toBeVisible();
+ await Assert.visible(this.createLeadBtn, 'Create Lead Button');
+  await Assert.clickable(this.createLeadBtn, 'Create Lead Button');
 
   }
 
